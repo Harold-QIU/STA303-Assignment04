@@ -1,0 +1,66 @@
+==========================
+Predictor: SplitPredictor, Score: THR
+evaluate_thr_aps.py --predictor SplitPredictor --score THR
+==========================
+Experiment--Data : ImageNet, Model : ResNet101, Score : THR, Predictor : SplitPredictor, Alpha : 0.1
+The size of calibration set is 25000.
+In-distribution Average_size: 1.94932, Converge_rate 0.90704
+iNaturalist: The AUROC is 0.80508953332901
+SUN: The AUROC is 0.7653955221176147
+Textures: The AUROC is 0.7351839542388916
+Places: The AUROC is 0.761719286441803
+==========================
+Predictor: SplitPredictor, Score: APS
+evaluate_thr_aps.py --predictor SplitPredictor --score APS
+==========================
+Experiment--Data : ImageNet, Model : ResNet101, Score : APS, Predictor : SplitPredictor, Alpha : 0.1
+The size of calibration set is 25000.
+In-distribution Average_size: 7.20224, Converge_rate 0.90584
+iNaturalist: The AUROC is 0.8817641139030457
+SUN: The AUROC is 0.8333420157432556
+Textures: The AUROC is 0.8417544960975647
+Places: The AUROC is 0.8143340945243835
+==========================
+Predictor: ClassWisePredictor, Score: THR
+evaluate_thr_aps.py --predictor ClassWisePredictor --score THR
+==========================
+Experiment--Data : ImageNet, Model : ResNet101, Score : THR, Predictor : ClassWisePredictor, Alpha : 0.1
+The size of calibration set is 25000.
+In-distribution Average_size: 4.61524, Converge_rate 0.90616
+iNaturalist: The AUROC is 0.8092846274375916
+SUN: The AUROC is 0.8164872527122498
+Textures: The AUROC is 0.8732951879501343
+Places: The AUROC is 0.7983422875404358
+==========================
+Predictor: ClassWisePredictor, Score: APS
+evaluate_thr_aps.py --predictor ClassWisePredictor --score APS
+==========================
+Experiment--Data : ImageNet, Model : ResNet101, Score : APS, Predictor : ClassWisePredictor, Alpha : 0.1
+The size of calibration set is 25000.
+In-distribution Average_size: 14.4944, Converge_rate 0.90488
+iNaturalist: The AUROC is 0.8802621960639954
+SUN: The AUROC is 0.8525158762931824
+Textures: The AUROC is 0.8752239942550659
+Places: The AUROC is 0.8309528827667236
+==========================
+Predictor: ClusterPredictor, Score: THR
+evaluate_thr_aps.py --predictor ClusterPredictor --score THR
+==========================
+Experiment--Data : ImageNet, Model : ResNet101, Score : THR, Predictor : ClusterPredictor, Alpha : 0.1
+The size of calibration set is 25000.
+In-distribution Average_size: 2.4712, Converge_rate 0.90696
+iNaturalist: The AUROC is 0.6417940855026245
+SUN: The AUROC is 0.7733002305030823
+Textures: The AUROC is 0.8004487752914429
+Places: The AUROC is 0.7638283371925354
+==========================
+Predictor: ClusterPredictor, Score: APS
+evaluate_thr_aps.py --predictor ClusterPredictor --score APS
+==========================
+Experiment--Data : ImageNet, Model : ResNet101, Score : APS, Predictor : ClusterPredictor, Alpha : 0.1
+The size of calibration set is 25000.
+In-distribution Average_size: 10.07816, Converge_rate 0.91568
+iNaturalist: The AUROC is 0.8816462755203247
+SUN: The AUROC is 0.8370014429092407
+Textures: The AUROC is 0.8561399579048157
+Places: The AUROC is 0.8179831504821777

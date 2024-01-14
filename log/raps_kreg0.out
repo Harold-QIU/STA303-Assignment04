@@ -1,0 +1,36 @@
+==========================
+Predictor: SplitPredictor, Score: 0.1
+evaluate_raps.py --predictor SplitPredictor --penalty 0.1
+==========================
+Experiment--Data : ImageNet, Model : ResNet101, Score : RAPS, Predictor : SplitPredictor, Alpha : 0.1
+RAPS setting: penalty = 0.1, kreg = 0
+The size of calibration set is 25000.
+In-distribution Average_size: 2.4078, Converge_rate 0.90604
+iNaturalist: The AUROC is 0.8572444915771484
+SUN: The AUROC is 0.794183611869812
+Textures: The AUROC is 0.8101776242256165
+Places: The AUROC is 0.7711824178695679
+==========================
+Predictor: ClassWisePredictor, Score: 0.1
+evaluate_raps.py --predictor ClassWisePredictor --penalty 0.1
+==========================
+Experiment--Data : ImageNet, Model : ResNet101, Score : RAPS, Predictor : ClassWisePredictor, Alpha : 0.1
+RAPS setting: penalty = 0.1, kreg = 0
+The size of calibration set is 25000.
+In-distribution Average_size: 8.37012, Converge_rate 0.91048
+iNaturalist: The AUROC is 0.4364983141422272
+SUN: The AUROC is 0.48933863639831543
+Textures: The AUROC is 0.7959930300712585
+Places: The AUROC is 0.478115439414978
+==========================
+Predictor: ClusterPredictor, Score: 0.1
+evaluate_raps.py --predictor ClusterPredictor --penalty 0.1
+==========================
+Experiment--Data : ImageNet, Model : ResNet101, Score : RAPS, Predictor : ClusterPredictor, Alpha : 0.1
+RAPS setting: penalty = 0.1, kreg = 0
+The size of calibration set is 25000.
+In-distribution Average_size: 8.34208, Converge_rate 0.91776
+iNaturalist: The AUROC is 0.472146213054657
+SUN: The AUROC is 0.4999164640903473
+Textures: The AUROC is 0.7658163905143738
+Places: The AUROC is 0.49633723497390747
